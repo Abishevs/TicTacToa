@@ -25,7 +25,7 @@ and places move with . (period) symbol
 DESIGNED BY EDUARDS ABISEVS
 */
 
-#include <ncurses.h>
+// #include <ncurses.h>
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>  // For usleep()
