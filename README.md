@@ -1,6 +1,6 @@
 # Tic-Tac-Toe Game in C
 
-A simple terminal-based Tic-Tac-Toe game where two players can play together. The game is designed to be played in a terminal with real-time input handling.
+A simple terminal-based Tic-Tac-Toe game where two players can play together. The game is designed to be played in a terminal.
 
 ## Features
 
@@ -10,6 +10,18 @@ A simple terminal-based Tic-Tac-Toe game where two players can play together. Th
 - Color-coded turns (Green for active player, Red for inactive player)
 - Simple and intuitive controls
 
+## Exampel gameplay
+### Start screen 
+
+![](https://i.imgur.com/a/1Rdv5vZ.gif)
+
+### Dioganals check
+![](https://i.imgur.com/a/Sz6ARld.gif)
+
+### Draw exampel
+![](https://i.imgur.com/a/Qy9Snlw.gif)
+
+
 ## Gameplay
 
 - **Player 1 (P1)** uses the `WASD` keys to move and the `G` key to place their symbol (`X`).
@@ -18,11 +30,11 @@ A simple terminal-based Tic-Tac-Toe game where two players can play together. Th
 ## Controls
 
 - **P1 Controls:**
-  - `W` - Move Up
-  - `A` - Move Left
-  - `S` - Move Down
-  - `D` - Move Right
-  - `G` - Place Symbol
+  - `w` - Move Up
+  - `a` - Move Left
+  - `s` - Move Down
+  - `d` - Move Right
+  - `g` - Place Symbol
 
 - **P2 Controls:**
   - `↑` - Move Up
@@ -43,7 +55,7 @@ A simple terminal-based Tic-Tac-Toe game where two players can play together. Th
 
   2. **Compile the code**:
   ```sh
-  gcc -o main main.c
+  gcc -o main main.c tictactoa.c
   ```
 
   3. **Run it**
