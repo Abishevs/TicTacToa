@@ -10,7 +10,7 @@ A simple terminal-based Tic-Tac-Toe game where two players can play together. Th
 - Color-coded turns (Green for active player, Red for inactive player)
 - Simple and intuitive controls
 
-![](clone https://github.com/Abishevs/blob/master/gifs/tictactoa_1.gif)
+![](https://github.com/Abishevs/blob/master/gifs/tictactoa_1.gif)
 
 
 ## Gameplay
