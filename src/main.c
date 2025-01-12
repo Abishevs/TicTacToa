@@ -28,7 +28,6 @@ DESIGNED BY EDUARDS ABISEVS
 #include "tictactoa.h"
 
 int main() {
-    char *frame[ROWS][COLS];
     Player p1 = {X, 1};
     Player p2 = {O, 0};
     Game game;

@@ -308,7 +308,7 @@ void run(Game *game) {
         printScore(getActivePlayer(game));
         printf("\033[2;1H"); // Move cursor below the score
         printFrame(game->frame);
-        printf("X: %d, Y: %d\n", game->x, game->y);  // For debugging pos
+        // printf("X: %d, Y: %d\n", game->x, game->y);  // For debugging pos
         printf("Press " RED"'Q'"RESET " to exit the game");
 
         // Move the cursor to first cell

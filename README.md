@@ -37,21 +37,32 @@ A simple terminal-based Tic-Tac-Toe game where two players can play together. Th
 - **General:**
   - `Q` - Quit the game
 
-## How to Run
+## Installation and Usage 
 
   1. **Clone it**:
   ```sh
-  git clone https://github.com/Abishevs/TicTacToa.git && cd TicTacToa/ 
+  git clone https://github.com/Abishevs/TicTacToa.git
+  cd TicTacToa/ 
   ```
 
-  2. **Compile the code**:
+  2. Compile And Run
   ```sh
-  gcc -o main main.c tictactoa.c
+  make
+  ./build/tictactoa
   ```
 
-  3. **Run it**
+### Install
+  Into `~/.local/bin`
+
   ```sh
-  ./main
+  make install
+  tictactoa
+  ```
+
+### Uninstall
+
+  ```sh
+  make uninstall
   ```
 
 ## Author
